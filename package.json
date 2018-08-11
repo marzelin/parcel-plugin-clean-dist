@@ -5,12 +5,15 @@
     "type": "git",
     "url": "git+https://github.com/qinshixixing/parcel-plugin-clean-dist.git"
   },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "rimraf": "^2.6.2"
+  },
   "devDependencies": {
     "jest": "^23.5.0",
     "parcel-bundler": "^1.9.7",
     "rimraf": "^2.6.2"
-  },
-  "scripts": {
-    "test": "jest"
   }
 }
